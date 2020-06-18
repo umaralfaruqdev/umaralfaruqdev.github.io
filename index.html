@@ -1,9 +1,156 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Umar - Pages</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Umar - Portofolio</title>
+
+	<!-- styles -->
+	<link rel="stylesheet" href="../assets/css/style.css">
+
+	<!-- font icons -->
+	<link rel="stylesheet" href="../fa/css/all.css">
 </head>
 <body>
-	Hello world
+	<nav class="navbar" id="navbar">
+		<a href="javascript:void[0]" class="name">Umar</a>
+
+		<div class="collapse-navbar d-flex fg-1">
+			<ul class="menu d-flex">
+				<li><a href="">Documentation</a></li>
+				<li><a href="">Home</a></li>
+				<li><a href="">Profile</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<section class="hero-content">
+		<div class="hero-container">
+			<div class="container">
+				<div class="hero">
+					<div class="row">
+						<div class="col-6 hero-info">
+							<h1 class="hi">Hi, i am Umar</h1>
+							<h2 class="position">Programmer & UI Designer</h2>
+							<h3 class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut animi velit nihil molestiae obcaecati perferendis, aspernatur facilis sed! Explicabo inventore et quaerat iusto officia, qui excepturi. Ut eius debitis, voluptatibus.</h3>
+							<div class="d-flex aic button-container">
+								<button class="hero-button d-flex aic jcc"><i class="fas fa-envelope icon"></i> Email me</button>
+								<a href="" class="cv-download"><i class="fas fa-download" style="margin-right: 15px;"></i> Download CV</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="content-section ">
+		<div class="container">
+			<div class="content">
+				<h3 class="label">Portofolio</h3>
+				<div class="sparated"></div>
+
+				<!-- start -->
+				<div class="row portofolio-container">
+
+					<!-- start loops -->
+
+					<div class="col-4 pt-35">
+						<div class="card card-image">
+							<div class="relative">
+								<a href="" class="d-flex">
+									<img src="../img/drb.png" class="img-res" alt="">
+								</a>
+								<div class="card-piece">
+									<p class="card-text">
+										<a href="">Portofolio</a>
+									</p>
+									<div class="card-info">
+										<span class="date">
+											<i class="fas fa-calendar-alt"></i>
+											<span class="info-text">20 May 2020</span>
+										</span>
+										<span class="tag">
+											<i class="fas fa-tag"></i>
+											<span class="info-text">Figma Design</span>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-4 pt-35">
+						<div class="card card-image">
+							<div class="relative">
+								<a href="" class="d-flex">
+									<img src="../img/1.jpg" class="img-res" alt="">
+								</a>
+								<div class="card-piece">
+									<p class="card-text">
+										<a href="">Elearning Application.</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- <div class="col-4 pt-35">
+						<div class="card card-image">
+							<div class="relative">
+								<a href="" class="d-flex">
+									<img src="../img/hasilnya3.png" class="img-res" alt="">
+								</a>
+								<div class="card-piece">
+									<p class="card-text">
+										<a href="">Elearning Application.</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div> -->
+
+					<div class="col-4 pt-35">
+						<div class="card card-image">
+							<div class="relative">
+								<a href="" class="d-flex">
+									<img src="../img/3.png" class="img-res" alt="">
+								</a>
+								<div class="card-piece">
+									<p class="card-text">
+										<a href="">Elearning Application.</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- end -->
+
+				</div>
+
+
+				<div class="row pt-60 jcc">
+					<button class="btn-success">
+						View more
+					</button>
+				</div>
+
+
+			</div>
+		</div>
+	</section>
+
+	<!-- script -->
+	<script type="text/javascript" src="../assets/js/style.js"></script>
+	<script type="text/javascript">
+		const init = app();
+
+		init.navbar({
+			navbar: '#navbar'
+		});
+	</script>
 </body>
 </html>
